@@ -20,13 +20,13 @@ function Header({ setToken, extraclasses ,userProfile}) {
       const webAuth = new auth0.WebAuth({
         domain: "techtribe.us.auth0.com",
         clientID: "ffbSF4A20lHnWOs1A6TuXpVZ0jESDGgY",
-        redirectUri: "https://melodic-cassata-2af0ea.netlify.app/login",
+        redirectUri: "https://splendorous-pika-7d6cea.netlify.app/login",
       });
 
       webAuth.logout({
         domain: "techtribe.us.auth0.com",
         clientID: "ffbSF4A20lHnWOs1A6TuXpVZ0jESDGgY",
-        redirectUri: "https://melodic-cassata-2af0ea.netlify.app/login",
+        redirectUri: "https://splendorous-pika-7d6cea.netlify.app/login",
       });
       sessionStorage.clear();
       // navigate("/");
